@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.container{
+    height: 100vh;
+}
+
+nav{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px 0px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    padding: 10px 0px 0px 0px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: rgb(128, 127, 129);
+    font-size: 17px;
+}
+
+.user-name{
+    background-color: rgb(223, 239, 255);
+    padding: 23px 30px;
+    border-radius: 15px;
+    color: rgb(0, 170, 255);
+    font-weight: bold;
+}
+
+.hero{
+    height: 88vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.left-div{
+    width: 50%;
+}
+
+.left-div h1{
+    font-size: 50px;
+    line-height: 1.2;
+    color: rgb(89, 89, 89);
+}
+
+.left-div span{
+    color: rgb(0, 170, 255);
+}
+
+.left-div p{
+    margin-top: 13px;
+    font-size: 23px;
+    line-height: 1.3;
+    color: rgb(185, 184, 186);
+    width: 100%;
+}
+
+.left-div button{
+    margin-top: 40px;
+    padding: 20px 45px;
+    background-color:rgb(0, 170, 255) ;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.left-div button:hover{
+    background-color:rgb(71, 192, 253) ;
+}
+
+.right-div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-div img{
+    width: 95%;
+}
